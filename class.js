@@ -27,7 +27,7 @@ class PersonPlus{
 }   
 
 
-var kim = new Person('kim', 10, 20, 50);
+var kim = new PersonPlus('kim', 10, 20, 50);
 
 console.log('kim.sum()', kim.sum());
 console.log('kim.avg()', kim.avg());
