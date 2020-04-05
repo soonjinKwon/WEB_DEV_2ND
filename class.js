@@ -6,10 +6,10 @@ class Person{
 		this.second = second;
 		this.third = third;
 	}
-}  
-Person.prototype.sum = function(){
+	sum(){
 	return 'prototype:'+ (this.first + this.second + this.third);
-}
+	}
+}  
 
 var kim = new Person('kim', 10, 20, 50);
 
